@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "https://ioxayo.github.io/credential-status/Wj8epqUxXhB8ShbmWXA6",
+  "type": [
+    "VerifiableCredential",
+    "BitstringStatusListCredential"
+  ],
+  "credentialSubject": {
+    "id": "https://ioxayo.github.io/credential-status/Wj8epqUxXhB8ShbmWXA6#list",
+    "type": "BitstringStatusList",
+    "encodedList": "uH4sIAAAAAAAAA-3BMQEAAADCoPVPbQsvoAAAAAAAAAAAAAAAAP4GcwM92tQwAAA",
+    "statusPurpose": "suspension"
+  },
+  "issuer": "did:key:z6MkhVTX9BF3NGYX6cc7jWpbNnR7cAjH8LUffabZP8Qu4ysC",
+  "validFrom": "2024-05-01T12:15:59.611Z",
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2024-05-01T12:15:59Z",
+    "verificationMethod": "did:key:z6MkhVTX9BF3NGYX6cc7jWpbNnR7cAjH8LUffabZP8Qu4ysC#z6MkhVTX9BF3NGYX6cc7jWpbNnR7cAjH8LUffabZP8Qu4ysC",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z4NhhMqeQbPxsSidhw67o3Si95tvtMYZ8qCB9T7drZAUSqmGBGSoAabLV6pgEamdRgtkJRaj4aS46p7ooTM657KKV"
+  }
+}
